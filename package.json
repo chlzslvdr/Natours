@@ -1,0 +1,18 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Learning NodeJS, Express and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chlzslvdr/Natours.git"
+  },
+  "author": "Chelzea Salvador",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

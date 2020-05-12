@@ -1,6 +1,9 @@
-# Natours-API
+# Natours
 
 This is a Demo Project made with [Udemy Complete Node Bootcamp Course](https://github.com/jonasschmedtmann/complete-node-bootcamp).
+
+## Purpose
+Learning NodeJS, Express and MongoDB.
 
 ## Resources
 

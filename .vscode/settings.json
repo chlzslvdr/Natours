@@ -1,0 +1,7 @@
+{
+  "editor.tabSize": 2,
+  "prettier.singleQuote": true,
+  "editor.formatOnSave": true,
+  "editor.snippetSuggestions": "top",
+  "javascript.format.enable": true
+}
