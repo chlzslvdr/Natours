@@ -6,6 +6,9 @@ This is a Demo Project made with [Udemy Complete Node Bootcamp Course](https://g
 
 Learn NodeJS, Express and MongoDB.
 
+## Notes
+[Introduction To MongoDB](IntroductionToMongoDB.md)
+
 ## Installation
 
 Clone and run yarn install to install the dependencies.
