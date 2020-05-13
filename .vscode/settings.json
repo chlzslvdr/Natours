@@ -3,5 +3,6 @@
   "prettier.singleQuote": true,
   "editor.formatOnSave": true,
   "editor.snippetSuggestions": "top",
+  "editor.renderWhitespace": "all",
   "javascript.format.enable": true
 }
