@@ -3,7 +3,30 @@
 This is a Demo Project made with [Udemy Complete Node Bootcamp Course](https://github.com/jonasschmedtmann/complete-node-bootcamp).
 
 ## Purpose
-Learning NodeJS, Express and MongoDB.
+
+Learn NodeJS, Express and MongoDB.
+
+## Installation
+
+Clone and run yarn install to install the dependencies.
+
+```bash
+npm install
+```
+
+## Start locally
+
+To run the project locally, use the `start` command.
+
+```bash
+npm start:dev
+```
+
+## Production
+
+```bash
+npm start:prod
+```
 
 ## Resources
 
