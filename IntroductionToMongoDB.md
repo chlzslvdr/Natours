@@ -33,6 +33,7 @@ use natours-test
 // Insert a document in this database collection
 db.tours.insertOne({ name: "The Forest Hiker", price: 297, rating: 4.7  })
 ```
+
 output:
 ```
 {
@@ -68,6 +69,7 @@ quit()
 ## CRUD Operations
 ### Creating Documents
 To create two new documents at the same time:
+
 ```bash
 db.tours.insertMany([{ name: "The Sea Explorer", price: 497, rating: 4.8  }, { name: "The Snow Adventurer", price: 997, rating: 4.9, difficulty: "easy"  }])
 ```
@@ -90,6 +92,7 @@ db.tours.find({ name: "The Sea Explorer" })
 
 **Special Query Operator**
 Ex(1) Search for tours below 500
+
 ``lte`` stands for less than or equal
 ```
 db.tours.find({ price: {$lte: 500} })
@@ -101,6 +104,7 @@ output:
 ```
 
 Ex(2) Search for tours below 500 AND ratings that are equal or greater 4.8
+
 (**AND query** - Both conditions are true)
 ```
 db.tours.find({ price: {$lt: 500}, rating: {$gte: 4.8} })
@@ -111,6 +115,7 @@ output:
 ```
 
 Ex(3) Search for tours below 500 OR ratings that are equal or greater 4.8
+
 (**OR query** - Only one of the conditions need to be true)
 ```
 db.tours.find({ $or: [ {price: {$lt: 500}}, {rating: {$gte: 4.8}} ] })
@@ -123,11 +128,13 @@ output:
 ```
 
 Besides our filter object, so this one, we can also pass in an object for projection.
+
 **Projection** means is that we simply want to select some of the fields in the output.
 
 ```
 db.tours.find({ $or: [ {price: {$gt: 500}}, {rating: {$gte: 4.8}} ]}, {name: 1 })
 ```
+
 ``{name: 1}`` means is that we only want the name to be in the output and so that's why we set name to one. All the others are not gonna appear in this case.
 
 output:
