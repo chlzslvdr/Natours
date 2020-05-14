@@ -4,7 +4,7 @@ This is a Demo Project made with [Udemy Complete Node Bootcamp Course](https://g
 
 ## Purpose
 
-Learn NodeJS, Express and MongoDB.
+Learn NodeJS, Express, Mongoose and MongoDB.
 
 ## Notes
 
