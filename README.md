@@ -7,11 +7,12 @@ This is a Demo Project made with [Udemy Complete Node Bootcamp Course](https://g
 Learn NodeJS, Express and MongoDB.
 
 ## Notes
-[Introduction To NodeJS](https://github.com/chlzslvdr/Node-Farm/blob/master/Notes.md)
 
-[Theory Lectures](https://github.com/chlzslvdr/Node-Farm/blob/master/theory-lectures.pdf)
+- [Introduction To NodeJS](https://github.com/chlzslvdr/Node-Farm/blob/master/Notes.md)
 
-[Introduction To MongoDB](IntroductionToMongoDB.md)
+- [Theory Lectures](https://github.com/chlzslvdr/Node-Farm/blob/master/theory-lectures.pdf)
+
+- [Introduction To MongoDB](IntroductionToMongoDB.md)
 
 ## Installation
 
