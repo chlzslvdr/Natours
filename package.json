@@ -1,6 +1,6 @@
 {
   "name": "natours",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Learn NodeJS, Express and MongoDB",
   "main": "server.js",
   "scripts": {
@@ -17,7 +17,8 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.9.14",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "slugify": "^1.4.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
