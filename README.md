@@ -30,6 +30,12 @@ To run the project locally, use the `start` command.
 npm start
 ```
 
+## Debug
+
+```bash
+npm run debug
+```
+
 ## Production
 
 ```bash
