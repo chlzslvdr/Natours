@@ -62,12 +62,13 @@ exports.protect = catchAsync(async (req, res, next) => {
     token = req.headers.authorization.split(' ')[1];
   }
 
-  // 2. Verification token
   if (!token) {
     return next(
       new AppError('You are not logged in. Please log in to get access.', 401)
     );
   }
+
+  // 2. Verification token
 
   // 3. Check if user still exists
 
