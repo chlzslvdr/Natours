@@ -14,34 +14,6 @@ Learn NodeJS, Express, Mongoose and MongoDB.
 
 - [Introduction To MongoDB](IntroductionToMongoDB.md)
 
-## Installation
-
-Clone and run yarn install to install the dependencies.
-
-```bash
-npm install
-```
-
-## Start locally
-
-To run the project locally, use the `start` command.
-
-```bash
-npm start
-```
-
-## Debug
-
-```bash
-npm run debug
-```
-
-## Production
-
-```bash
-npm start:prod
-```
-
 ## Resources
 
 http://codingheroes.io/resources

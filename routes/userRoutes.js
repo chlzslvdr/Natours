@@ -8,6 +8,7 @@ const {
   getUser,
   updateUser,
   deleteUser,
+  deleteMe,
   updateMe,
 } = userControllers;
 
@@ -26,6 +27,7 @@ router.patch(
 );
 
 router.patch('/updateMe', authController.protect, updateMe);
+router.delete('/deleteMe', authController.protect, deleteMe);
 
 router.route('/').get(getAllUsers).post(createUser);
 router.route('/:id').get(getUser).patch(updateUser).delete(deleteUser);
