@@ -466,5 +466,58 @@
         "day": 5
       }
     ]
+  },
+  {
+    "startLocation": {
+      "description": "Arizona, USA",
+      "type": "Point",
+      "coordinates": [33.544342, -111.954406],
+      "address": "La Place Du Sommet, Paradise Valley, AZ 85253, USA"
+    },
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 76,
+    "images": ["tour-10-1.jpg", "tour-10-2.jpg", "tour-10-3.jpg"],
+    "startDates": [
+      "2021-05-21,11:00:00.000Z",
+      "2021-06-30,9:00:00.000Z",
+      "2021-10-09,12:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf3c276afca3f409d",
+    "name": "The Sunrise Chaser",
+    "duration": 8,
+    "maxGroupSize": 14,
+    "difficulty": "medium",
+    "guides": [
+      "5c8a21f22f8fb814b56fa18a",
+      "5c8a1f292f8fb814b56fa184",
+      "5c8a1f4e2f8fb814b56fa185"
+    ],
+    "price": 2600,
+    "summary": "The secret to a good morning is to watch the sunrise with an open heart.",
+    "description": "Accumsan morbi fusce ullamcorper commodo eu dignissim lacus fermentum lobortis, etiam sed habitant risus nascetur litora augue dictumst habitasse, orci sem pulvinar per in hendrerit cum ornare. Pulvinar ac etiam tortor cursus dictumst. Natoque facilisi purus vestibulum hac vitae nec orci eleifend aliquam diam etiam cum congue potenti, netus curae augue phasellus eget auctor ullamcorper vestibulum",
+    "imageCover": "tour-10-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf409c296ebfda357",
+        "description": "Paradise Canyon Foothills",
+        "type": "Point",
+        "coordinates": [33.547406, -111.965989],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8c09c39f4afda3976d",
+        "description": "Mummy Mountain Norte",
+        "type": "Point",
+        "coordinates": [33.549652, -111.957869],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cd4afca399c296e70",
+        "description": "La Place Du Sommet",
+        "type": "Point",
+        "coordinates": [33.542707, -111.958562],
+        "day": 3
+      }
+    ]
   }
 ]
