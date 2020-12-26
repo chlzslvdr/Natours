@@ -18,7 +18,7 @@ mongoose
     useFindAndModify: false,
   })
   .then(() => {
-    console.log('DB connection successful! 👐');
+    console.info('DB connection successful! 👐');
   });
 
 // READ JSON FILE
@@ -28,9 +28,9 @@ const tours = JSON.parse(fs.readFileSync(`${__dirname}/tours.json`, 'utf-8'));
 const importData = async () => {
   try {
     await Tour.create(tours);
-    console.log('Data successfully loaded!');
+    console.info('Data successfully loaded!');
   } catch (err) {
-    console.log(err);
+    console.error(err);
   }
 
   process.exit();
@@ -40,9 +40,9 @@ const importData = async () => {
 const deleteData = async () => {
   try {
     await Tour.deleteMany();
-    console.log('Data successfully deleted!');
+    console.info('Data successfully deleted!');
   } catch (err) {
-    console.log(err);
+    console.error(err);
   }
 
   process.exit();
