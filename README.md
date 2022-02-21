@@ -4,7 +4,7 @@ This is a Demo Project made with [Udemy Complete Node Bootcamp Course](https://g
 
 ## Purpose
 
-Learn NodeJS, Express, Mongoose and MongoDB.
+Master Node by building a real-world RESTful API and web app (with authentication, Node.js security, payments & etc..)
 
 ## Installation
 
