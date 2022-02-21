@@ -133,20 +133,5 @@
     "imageCover": "tour-9-cover.jpg",
     "images": ["tour-9-1.jpg", "tour-9-2.jpg", "tour-9-3.jpg"],
     "startDates": ["2021-12-16,10:00", "2022-01-16,10:00", "2022-12-12,10:00"]
-  },
-  {
-    "id": 9,
-    "name": "The Sunrise Chaser",
-    "duration": 8,
-    "maxGroupSize": 14,
-    "difficulty": "medium",
-    "ratingsAverage": 3.5,
-    "ratingsQuantity": 76,
-    "price": 2600,
-    "summary": "The secret to a good morning is to watch the sunrise with an open heart.",
-    "description": "Accumsan morbi fusce ullamcorper commodo eu dignissim lacus fermentum lobortis, etiam sed habitant risus nascetur litora augue dictumst habitasse, orci sem pulvinar per in hendrerit cum ornare. Pulvinar ac etiam tortor cursus dictumst. Natoque facilisi purus vestibulum hac vitae nec orci eleifend aliquam diam etiam cum congue potenti, netus curae augue phasellus eget auctor ullamcorper vestibulum",
-    "imageCover": "tour-10-cover.jpg",
-    "images": ["tour-10-1.jpg", "tour-10-2.jpg", "tour-10-3.jpg"],
-    "startDates": ["2021-05-21,11:00", "2021-06-30,9:00", "2021-10-09,12:00"]
   }
 ]
