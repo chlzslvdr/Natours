@@ -830,6 +830,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: flex-end;
 }
 .footer__nav li {
   margin-left: 1.5rem;
@@ -847,6 +848,20 @@ body {
 .footer__copyright {
   justify-self: end;
   color: #999;
+}
+.description {
+  justify-self: end;
+}
+.description a.link {
+  color: #777;
+  text-decoration: none !important;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-weight: bold;
+}
+.description a.link:hover,
+.description a.link:active {
+  color: #55c57a !important;
 }
 @media only screen and (max-width: 50em) {
   .footer__copyright {
