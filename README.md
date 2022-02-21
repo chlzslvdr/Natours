@@ -26,7 +26,11 @@ Run the development server:
 yarn start
 ```
 
-Open [http://localhost:4400](http://localhost:4400) with [Postman](https://www.postman.com/) to test the API.
+Open [http://localhost:4040](http://localhost:4040) with [Postman](https://www.postman.com/) to test the API.
+
+## API Documentation
+
+[Natours API](https://documenter.getpostman.com/view/5787929/UVkmPGGX)
 
 ## Notes
 
