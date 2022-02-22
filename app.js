@@ -6,6 +6,8 @@ const helmet = require('helmet');
 const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 const hpp = require('hpp');
+const cors = require('cors');
+const cookieParser = require('cookie-parser');
 
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
@@ -25,19 +27,34 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Set security HTTP headers
 app.use(
-  helmet({
-    crossOriginEmbedderPolicy: false,
-    contentSecurityPolicy: {
-      directives: {
-        'child-src': ['blob:'],
-        'connect-src': ['https://*.mapbox.com'],
-        'default-src': ["'self'"],
-        'font-src': ["'self'", 'https://fonts.gstatic.com'],
-        'img-src': ["'self'", 'data:', 'blob:'],
-        'script-src': ["'self'", 'https://*.mapbox.com'],
-        'style-src': ["'self'", 'https:'],
-        'worker-src': ['blob:'],
-      },
+  cors({
+    origin: 'http://127.0.0.1:4040',
+    credentials: true,
+  })
+);
+
+app.use(
+  helmet.contentSecurityPolicy({
+    directives: {
+      defaultSrc: ["'self'", 'data:', 'blob:'],
+      baseUri: ["'self'"],
+      fontSrc: ["'self'", 'https:', 'data:'],
+      scriptSrc: ["'self'", 'https://*.cloudflare.com'],
+      scriptSrc: ["'self'", 'https://*.stripe.com'],
+      scriptSrc: ["'self'", 'http:', 'https://*.mapbox.com', 'data:'],
+      frameSrc: ["'self'", 'https://*.stripe.com'],
+      objectSrc: ["'none'"],
+      styleSrc: ["'self'", 'https:', 'unsafe-inline'],
+      workerSrc: ["'self'", 'data:', 'blob:'],
+      childSrc: ["'self'", 'blob:'],
+      imgSrc: ["'self'", 'data:', 'blob:'],
+      connectSrc: [
+        "'self'",
+        'blob:',
+        'https://*.mapbox.com',
+        'https://*.cloudflare.com',
+      ],
+      upgradeInsecureRequests: [],
     },
   })
 );
@@ -57,6 +74,7 @@ app.use('/api', limiter);
 
 // Body parser, reading data body, into req.body
 app.use(express.json({ limit: '12kb' }));
+app.use(cookieParser());
 
 // Data sanitization against NoSQL query injection
 app.use(mongoSanitize());
@@ -80,6 +98,7 @@ app.use(
 
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
+  console.info(req.cookies);
   next();
 });
 
