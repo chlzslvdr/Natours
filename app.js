@@ -25,14 +25,15 @@ app.set('views', path.join(__dirname, 'views'));
 // Serving static files
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Set security HTTP headers
+// CORS
 app.use(
   cors({
-    origin: 'http://127.0.0.1:4040',
+    origin: true,
     credentials: true,
   })
 );
 
+// Set security HTTP headers
 app.use(
   helmet.contentSecurityPolicy({
     directives: {
@@ -98,7 +99,8 @@ app.use(
 
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
-  console.info(req.cookies);
+  // console.info(req.cookies);
+
   next();
 });
 

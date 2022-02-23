@@ -26,7 +26,9 @@ Run the development server:
 yarn start
 ```
 
-Open [http://localhost:4040](http://localhost:4040) with [Postman](https://www.postman.com/) to test the API.
+Use [http://127.0.0.1:4040](http://127.0.0.1:4040) as the URL when running API in [Postman](https://www.postman.com/).
+
+Run [http://127.0.0.1:4040](http://127.0.0.1:4040) in the browser to view web app.
 
 ## API Documentation
 
