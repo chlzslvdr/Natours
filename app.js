@@ -8,7 +8,7 @@ const xss = require('xss-clean');
 const hpp = require('hpp');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
-const methodOverride = require('method-override');
+// const methodOverride = require('method-override');
 
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
@@ -56,7 +56,7 @@ app.use(express.urlencoded({ extended: true, limit: '12kb' }));
 app.use(cookieParser());
 
 //Setting for method override in Express
-app.use(methodOverride('_method'));
+// app.use(methodOverride('_method'));
 
 // Data sanitization against NoSQL query injection
 app.use(mongoSanitize());
