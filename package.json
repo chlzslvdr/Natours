@@ -7,8 +7,8 @@
     "start": "nodemon server.js",
     "start:prod": "NODE_ENV=production nodemon server.js",
     "debug": "ndb server.js",
-    "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
-    "build:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+    "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js --public-url .",
+    "build:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js --public-url ."
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "cors": "2.8.5",
     "dotenv": "16.0.0",
     "express": "4.17.3",
+    "method-override": "3.0.0",
     "mongoose": "5.13.2",
     "morgan": "1.10.0",
     "pug": "3.0.2",
