@@ -29,7 +29,7 @@ yarn install
 
 Add the necessary `config.env` variables:
 
-see `config.env.example`
+see [config.env.example](https://github.com/chlzslvdr/Natours/blob/master/config.env.example)
 
 ## Start Locally
 
