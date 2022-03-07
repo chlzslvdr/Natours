@@ -1,6 +1,8 @@
+[![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge&style=flat)](https://natours2022.herokuapp.com)
+
 # Natours
 
-This is a Demo Project made with [Udemy Complete Node Bootcamp Course](https://github.com/jonasschmedtmann/complete-node-bootcamp).
+This is a [Demo Project](https://natours2022.herokuapp.com) made with [Udemy Complete Node Bootcamp Course](https://github.com/jonasschmedtmann/complete-node-bootcamp).
 
 ## Purpose
 
@@ -46,6 +48,15 @@ Run [http://127.0.0.1:4040](http://127.0.0.1:4040) in the browser to view web ap
 ## API Documentation
 
 [Natours API](https://documenter.getpostman.com/view/5787929/UVkmPGGX)
+
+## Production
+
+Test Account:
+```
+username: aarav.natours@yopmail.com
+
+password: test1234
+```
 
 ## Notes
 
