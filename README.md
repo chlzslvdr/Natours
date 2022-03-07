@@ -36,7 +36,7 @@ see [config.env.example](https://github.com/chlzslvdr/Natours/blob/master/config
 Run the development server:
 
 ```bash
-yarn start
+yarn dev
 ```
 
 Use [http://127.0.0.1:4040](http://127.0.0.1:4040) as the URL when running API in [Postman](https://www.postman.com/).
