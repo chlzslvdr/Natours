@@ -10,7 +10,6 @@
     "debug": "ndb server.js",
     "watch:js": "npx -p parcel-bundler parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js --public-url .",
     "build:js": "npx -p parcel-bundler parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js --public-url ."
-    "build": "npx -p parcel-bundler parcel build index.html"
   },
   "repository": {
     "type": "git",
