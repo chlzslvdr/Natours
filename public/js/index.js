@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-import '@babel/polyfill';
+import 'core-js/es7/reflect';
 import { displayMap } from './mapbox';
 import { login, logout } from './login';
 import { updateSettings } from './updateSettings';
