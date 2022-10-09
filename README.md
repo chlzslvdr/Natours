@@ -1,8 +1,6 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b7e292bc-7bd4-48ff-8e9e-133d39ab5c2d/deploy-status)](https://app.netlify.com/sites/my-natours22/deploys)
-
 # Natours
 
-This is a [Demo Project](https://my-natours22.netlify.app) made with [Udemy Complete Node Bootcamp Course](https://github.com/jonasschmedtmann/complete-node-bootcamp).
+This is a [Demo Project](https://natours.onrender.com) made with [Udemy Complete Node Bootcamp Course](https://github.com/jonasschmedtmann/complete-node-bootcamp).
 
 ## Purpose
 
@@ -20,7 +18,7 @@ Master Node by building a real-world RESTful API and web app (with authenticatio
 - [Stripe](https://stripe.com/) - Online payment API
 - [Postman](https://www.getpostman.com/) - API testing
 - [Mailtrap](https://mailtrap.io/) & [Sendgrid](https://sendgrid.com/) - Email delivery platform
-- [Netlify](https://www.netlify.com) - Cloud platform
+- [Render](https://render.com) - Cloud platform
 
 ## Installation
 

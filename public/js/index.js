@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 import '@babel/polyfill';
-import 'core-js/modules/_array-copy-within.js';
+import 'core-js/stable';
 import { displayMap } from './mapbox';
 import { login, logout } from './login';
 import { updateSettings } from './updateSettings';
